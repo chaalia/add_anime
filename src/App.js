@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import Background from './background.jpg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
+    <div className="App" >
+        <div style={{height:1050, width: 2060, background: `url(${Background})`, backgroundSize: '100%'}}>
+        <a className="App-link"
+          href="https://apk.e-droid.net/apk/app1721939.apk?v=4"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Download the app
         </a>
-      </header>
+      </div>
     </div>
   );
 }
